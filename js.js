@@ -213,7 +213,7 @@ function seleccionarEmpresa(){
     let inputClave = document.getElementById('clave')
     let inputPoder = document.getElementById('poder')
     let inputFechaPoder = document.getElementById('fecha-poder')
-    let inputVM = document.getElementById('vm')
+    let inputVm = document.getElementById('vm')
     var array = [];
     if(inputSergio.checked){
        array[0] = "LUIS SERGIO BALCAZAR GARCIA"; array[1] = array[0]; array[2] = 'AUTOTRANSPORTES ESTRELLA DEL VALLE DE MEXICO, S.A. DE C.V.';array[3] = 'BLGRLS67100709H200'; array[4] = '20,876'; array[5] = '24 DE AGOSTO DEL 2022'
@@ -221,7 +221,7 @@ function seleccionarEmpresa(){
     if(inputIzcalli.checked){
         array[0] = "JULIO CESAR MOYA LUNA"; array[1] = array[0]; array[2] = 'SITIO DE TAXIS Y RADIO TAXIS DE IZCALLI DEL RIO, S.A. DE C.V.'; array[3] = 'MYLNJL71041213H100'; array[4] = '23,683'; array[5] = '01 DE MARZO DEL 2024'                
     }
-    if(inputVM){
+    if(inputVm.checked){
         array[0] = "ISRAEL GONZALEZ ROSAS"; array[1] = array[0]; array[2] = 'AUTOBUSES DEL VALLE DE MEXICO, S.A. DE C.V.';array[3] = 'GNRSIS73112809H701'; array[4] = '24,490'; array[5] = '04 DE ABRIL DE 2024'
     }
     if(inputLety.checked){
