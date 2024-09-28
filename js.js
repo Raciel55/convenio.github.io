@@ -395,14 +395,6 @@ function terminarConvenio(){
         document.getElementById('section-imprimir').style.display = 'none'
         window.print();
     })
-    let botonModificar = document.getElementById('modificar ')
-    botonModificar.addEventListener('click',function(){
-        botonImprimir.removeEventListener('click',function()
-        {
-            document.getElementById('section-imprimir').style.display = 'none'
-            window.print();
-        })
-    })
 
     window.addEventListener('afterprint', function(){
         document.getElementById('section-imprimir').style.display = 'block'
