@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CONVENIO</title>
+        <script src="./js.js"></script>
+        <link rel="stylesheet" href='./css.css'>
+        <link rel="icon" href="convenio.png" type="image/x-icon">
+    </head>
+    <body>
+        <audio id="audio-2" controls>
+            <source type="audio/wav" src="p_15577500_748.wav">
+        </audio>
+        <audio id="audio" controls>
+            <source type="audio/wav" src="p_15577437_597.wav">
+        </audio>
+        <div id="contenedor" class="contenedor">
+            <section id="fisica-moral">
+                <div class="titulo" align="center">
+                    <table border="0" cellspacing="0">
+                        <tr>
+                            <td>
+                                <div align="center">
+                                    
+                                </div>
+                            </td>
+                            <td width="300px">
+                                <div align="center">
+                                    <h1>CONVENIO</h1>
+                                </div>
+                            </td>
+                            <td>
+                                <div align="center" class="logo-derecho">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="encabezado">
+                    <h2 align="center">TIPO DE PERSONA</h2>
+                </div>
+                <div class="contenedor-1" id="contenedor-1">
+                    <br>
+                    <br>
+                    <table width="600px">
+                        <tr>
+                            <td>
+                                <div align="center">
+                                    <label for="fisica" class="radios"><span class="radio-button"></span>FISICA</label>
+                                    <input type="radio" id="fisica" name="persona">
+                                </div>
+                            </td>
+                            <td>
+                                <div align="center">
+                                    <label for="moral" class="radios"><span class="radio-button"></span>MORAL</label>
+                                    <input type="radio" id="moral" name="persona">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                </div>
+                <div class="encabezado" align="center">
+                    <button id="seleccionar-persona" class="botones">SELECCIONAR</button>
+                </div>
+            </section>
+        </div>
+        <section id="conocidos">
+            <div class="encabezado" align="center">
+                <h2>SELECCIONA UNA EMPRESA</h2>
+            </div>
+            <div class="contenedor-2">
+                <label for="sergio" class="radio-button">SERGIO</label>
+                <input type="radio" id="sergio" name="emp-con" class="radio-button">
+                <br>
+                <label for="vm" class="radio-button">VALLE DE MEXICO</label>
+                <input type="radio" id="vm" name="emp-con" class="radio-button">
+                <br>
+                <label for="santos" class="radio-button">SANTOS</label>
+                <input type="radio" id="santos" name="emp-con" class="radio-button">
+                <br>
+                <label for="mario" class="radio-button">MARIO</label>
+                <input type="radio" id="mario" name="emp-con" class="radio-button">
+                <br>
+                <label for="mt" class="radio-button">MEXICO TACUBA</label>
+                <input type="radio" id="mt" name="emp-con" class="radio-button">
+                <br>
+                <label for="lety" class="radio-button">LETY</label>
+                <input type="radio" id="lety" name="emp-con" class="radio-button">
+                <br>
+                <label for="cureno" class="radio-button">CUREÑO</label>
+                <input type="radio" id="cureno" name="emp-con" class="radio-button">
+                <br>
+                <label for="martin" class="radio-button">MARTIN</label>
+                <input type="radio" id="martin" name="emp-con" class="radio-button">
+                <br>
+                <label for="adolfo" class="radio-button">ADOLFO LOPEZ MATEOS</label>
+                <input type="radio" id="adolfo" name="emp-con" class="radio-button">
+                <br>
+                <label for="acatlan" class="radio-button">ACATLAN</label>
+                <input type="radio" id="acatlan" name="emp-con" class="radio-button">
+                <br>
+                <label for="miguel" class="radio-button">MIGUEL</label>
+                <input type="radio" id="miguel" name="emp-con" class="radio-button">
+                <br>
+                <label for="rafa">RAFA</label>
+                <input type="radio" id="rafa" name="emp-con">
+                <br>
+                <label for="administradora" class="radio-button">ADMINISTRADORA</label>
+                <input type="radio" id="administradora" name="emp-con" class="radio-button">
+                <br>
+                <label for="basurto" class="radio-button">BASURTO</label>
+                <input type="radio" id="basurto" name="emp-con" class="radio-button">
+                <br>
+                <label for="ray" class="radio-button">RAY</label>
+                <input type="radio" id="ray" name="emp-con" class="radio-button">
+                <br>
+                <label for="elba" class="radio-button">ELBA</label>
+                <input type="radio" id="elba" name="emp-con" class="radio-button">
+                <br>
+                <label for="izcalli" class="radio-button">IZCALLI</label>
+                <input type="radio" id="izcalli" name="emp-con" class="radio-button">
+                <br>
+                <label for="rincon-verde" class="radio-button">RINCON VERDE</label>
+                <input type="radio" id="rincon-verde" name="emp-con" class="radio-button">
+                <br>
+                <label for="otros" class="radio-button">OTRO</label>
+                <input type="radio" id="otros" name="emp-con" class="radio-button">
+                <br>
+            </div>
+            <div class="encabezado" align="center">
+                <table width="600px">
+                    <tr>
+                        <td>
+                            <div align="center">
+                                <button class="botones" id="atras-empresa">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ATRAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div align="center">
+                                <button id="seleccionar-empresa" class="botones">SIGUIENTE</button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section id="ingresar-datos">
+            <div class="encabezado" align="center">
+                <h2>INTRODUCE LOS DATOS DEL TITULAR</h2>
+            </div>
+            <div class="contenedor-3">
+                <p>NOMBRE:</p>
+                <label for="ingresar-nombre"></label>
+                <input type="text" id="ingresar-nombre" class="texto">
+                <p>CLAVE DE ELECTOR:</p>
+                <label for="ingresar-clave"></label>
+                <input type="text" id="ingresar-clave" class="texto">
+                <!--<p>CALLE:</p>
+                <label for="ingresar-calle"></label>
+                <input type="text" id="ingresar-calle" class="texto">
+                <p>COLONIA:</p>
+                <label for="ingresar-colonia"></label>
+                <input type="text" id="ingresar-colonia" class="texto">
+                <p>CP:</p>
+                <label for="ingresar-cp"></label>
+                <input type="text" id="ingresar-cp" class="texto">
+                <p>MUNICIPIO:</p>
+                <label for="ingresar-municipio"></label>
+                <input type="text" id="ingresar-municipio" class="texto">-->
+                <br>
+                <br>
+            </div>
+            <section id="ingresar-datos-moral">
+                <div class="contenedor-5">
+                        <p>EMPRESA:</p>
+                        <label for="ingresar-empresa"></label>
+                        <input type="text" id="ingresar-empresa" class="texto">
+                        <p>NO. DE PODER:</p>
+                        <label for="ingresar-poder"></label>
+                        <input type="text" id="ingresar-poder" class="texto">
+                        <p>FECHA DE PODER:</p>
+                        <label for="ingresar-fecha-poder"></label>
+                        <input type="text" id="ingresar-fecha-poder" class="texto">
+                </div>
+            </section>
+            <div class="encabezado" align="center">
+                <table width="600px">
+                    <tr>
+                        <td>
+                            <div align="center">
+                                <button class="botones" id="atras">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ATRAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div align="center">
+                                <button id="siguiente" class="botones">SIGUIENTE</button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section id="ingresar-datos-vehiculo">
+            <div class="encabezado" align="center">
+                <h2>INGRESA LOS DATOS DEL VEHICULO:</h2>
+            </div>
+            <div class="contenedor-4">
+                <p>CONCESION:</p>
+                <label for="ingresar-concesion" class="texto"></label>
+                <input type="text" id="ingresar-concesion" class="texto">
+
+                <p>MODALIDAD:</p>
+                <label for="ingresar-modalidad" class="texto"></label>
+                <input type="text" id="ingresar-modalidad" class="texto">
+
+                <p>MUNICIPIO DE OPERACION:</p>
+                <label for="ingresar-municipio-operacion" class="texto"></label>
+                <input type="text" id="ingresar-municipio-operacion" class="texto">
+
+                <p>SERIE:</p>
+                <label for="ingresar-serie"></label>
+                <input type="text" id="ingresar-serie" class="texto">
+
+                <p>MARCA:</p>
+                <label for="ingresar-marca"></label>
+                <input type="text" id="ingresar-marca" class="texto">
+
+                <p>SUBMARCA:</p>
+                <label for="ingresar-submarca"></label>
+                <input type="text" id="ingresar-submarca" class="texto">
+                <br>
+                <br>
+            </div>
+            <div class="encabezado" align="center">
+                <table width="600px">
+                    <tr>
+                        <td>
+                            <div align="center">
+                                <button class="botones" id="atras-terminar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ATRAS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div align="center">
+                                <button id="terminar" name="botones" class="botones">TERMINAR</button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>  
+        </section>
+        <div class="div-1" align="justify">
+            <section id="section-imprimir">
+                <div class="encabezado">
+                    <table width="600px">
+                        <tr>
+                            <td>
+                                <div align="center">
+                                    <button class="botones" id="modificar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MODIFICAR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                                </div>
+                            </td>
+                            <td>
+                                <div align="center">
+                                    <button id="imprimir" class="botones">IMPRIMIR</button>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <section id="predet">
+                <p align="right"><b>Estado de México, a <span id="date">01 de diciembre del 2023</span></b></p>
+                <br>
+                <div class="div-2">
+                    <p>DIRECTOR DEL REGISTRO ESTATAL</p>
+                    <p>DE TRANSPORTE PUBLICO</p>
+                    <p>DIRECCION DEL REGISTRO ESTATAL DE TRANSPORTE PUBLICO</p>
+                    <p>P R E S E N T E.</p>
+                </div>
+                <br>
+            </section>
+            <section id="predet-fisica">
+                Yo el/la  <b><u>C. <span id="nombre-fisica"></span></u></b>, <!--con domicilio en <b><u>C.<span id="calle-fisica"></span>, COL. <span
+                    id="colonia-fisica"></span>
+                , <span id="municipio-fisica"></span>, C.P. <span id="cp-fisica"></span> del ESTADO DE MÉXICO.</u></b>--> identificándome con credencial oficial
+                <b><u>Ine/Pasaporte ó
+                Licencia De Conducir Del Edo. Mex <span id="clave-fisica"></span></u></b>, manifiesto a Usted a través del presente ocurso, que soy titular/legítimo poseedor de un concesionamiento público
+                de pasajeros en la modalidad de <b><span id="modalidad"></span></b> por lo que cuento con la personalidad e interés jurídicos suficientes para
+                sustentar el presente requerimiento; no omitiendo señalar, bajo protesta de decir verdad, que la calidad con la cual me apersono ente esta autoridad registral
+                no ha sido controvertida por algún tercero. Bajo guisa le refiero los siguientes datos:
+            </section>
+            <section id="predet-moral">
+                <p align="justify">
+                    El/la que suscribe C. <u><b><span id="nombre"></span></b></u>, identificándome con credencial oficial <u><b>INE/IFE/PASAPORTE
+                    VIGENTE <span id="clave"></span></b></u>, por así convenir los intereses de mi representada <u><b>"<span
+                    id="empresa"></span>"</b></u>, que acredito con<u><b> EL PODER NOTARIAL, INSTRUMENTO, ACTA O PÓLIZA <span
+                    id="poder"></span></b></u>,<!--con domicilio en <u><b><span id="calle"></span>, COL. <span id="colonia"></span>, <span
+                    id="municipio"></span>, Código Postal <span id="cp"></span> del Edo Méx. </u> </b>,--> de fecha <b> <span id="fecha-poder"></span> </b>  
+                    , señalando bajo protesta de decir verdad, hago de su atento conocimiento que mi personeria es vígente, legal y legítima por lo que
+                    no se encuentra sujeta a interpelación jurisdiccional alguna por parte de un tercero; acotando también, que el cargo que ostento ha sido 
+                    refrendado por el órgano administrador de la sociedad mercantíl concesionaria que represento. Bajo esta guisa, y como sustento del presente 
+                    requerimiento le refiero los siguientes datos: 
+                </p>
+            </section>
+            <section id="predet-2">
+                <div align="center">
+                    <table border="1" cellspacing="0" width="400px">
+                        <tr height="30px">
+                            <td align="center" width="200px" ><b>CONCESIÓN</b></td>
+                            <td align="center" width="200px"><span id="concesion"></span></td>
+                        </tr>
+                        <tr height="30px">
+                            <td align="center"><b>MUNICIPIO DE OPERACION</b></td>
+                            <td align="center"><span id="municipio-2"></span></td>
+                        </tr>
+                        <tr height="30px">
+                            <td align="center"><b>SERIE VEHICULAR</b></td>
+                            <td align="center"><span id="serie"></span></td>
+                        </tr>
+                        <tr height="30px">
+                            <td align="center"><b>MARCA Y SUBMARCA</b></td>
+                            <td align="center"><span id="marca"></span>,<span id="submarca"></span></td>
+                        </tr>
+                        <tr height="30px">
+                            <td align="center"><b>MODELO</b></td>
+                            <td align="center"><span id="modelo"></span></td>
+                        </tr>
+                    </table>
+                </div>
+                <p align="justify"><span id="cambio-fisica"></span> lo anterior con el proposito de ejercer la prerrogativa prevista
+                    en la hipotésis normativa del
+                    <i>“ACUERDO DEL SECRETARIO DE MOVILIDAD POR EL CUAL SE EXTIENDE HASTA
+                    EL TREINTA Y UNO DE JULIO DEL AÑO DOS MIL VEINTICINCO LA EJECUCIÓN DEL DIVERSO ACUERDO DEL SECRETARIO DE
+                    MOVILIDAD POR EL QUE SE AUTORIZA POR TIEMPO DETERMINADO LA CULMINACIÓN DE LOS TRÁMITES DE OTORGAMIENTO
+                    DE CONCESIONES, AUTORIZACIONES DE BASE, TERMINALES, DERROTEROS, LANZADERAS, ALARGAMIENTOS Y
+                    MODIFICACIONES DE DERROTEROS QUE SE HAYAN INICIADO Y NO CONCLUIDO, ASÍ COMO PARA CULMINAR LOS TRÁMITES
+                    DE LAS CONCESIONES VENCIDAS NO PRORROGADAS QUE SE HAYAN INICIADO Y NO CONCLUIDO EN TIEMPO Y FORMA”</i>,
+                    publicado en Gaceta del Gobierno del Estado de México el 03 de septiembre del 2024, en su apartado 
+                    SEGUNDO consistente en la posibilidad de prorrogar de manera provisional y condicionada las concesiones vencidas,
+                     por un plazo máximo e improrrogable de un año.
+                </p>
+                <p>
+                     De igual forma se hace patente que él/la que suscribe es sabedor (a) de la condición suspensiva establecida en 
+                     el apartado TERCERO del Acuerdo administrativo de referencia, y de la condición resolutoria para el caso de que 
+                     él/la suscrito (a) incurra en el incumplimiento indicado en el apartado CUARTO del mismo ordenamiento sin reservarme 
+                     derecho de interpelación jurisdiccional alguna, a saber:
+                </p>
+                <p>
+                    <i><b>TERCERO.</b> Concluida la vigencia del presente Acuerdo, de forma inmediata el concesionario deberá
+                        cumplir, en su caso, con los siguientes requisitos: </i>
+                </p>
+                <ol type="a">
+                        <li>
+                            <i>Sustitución del vehículo por uno que tenga vida útil para tal efecto de diez años contados a
+                            partir del año modelo.</i>
+                        </li>
+                        <li>
+                            <i>Cumplir con lo dispuesto en el “Acuerdo por el que se expiden y señalan los elementos de
+                            identificación de los vehículos destinados a concesiones y permisos relacionados con el servicio
+                            público de transporte seguro para las modalidades de colectivo, automóvil de alquiler y taxi
+                            rosa en el Estado de México”, publicado en el Periódico Oficial “Gaceta del Gobierno” el catorce
+                            de abril de dos mil catorce, y</i>
+                        </li>
+                        <li>
+                            <i>Cumplir con la conectividad al Centro de Control y Gestión de la Secretaría de Movilidad del
+                            Estado de México, de los dispositivos de seguridad consistentes en: Sistema de Posicionamiento
+                            Global (GPS), Cámaras de vigilancia y Botón de pánico.</i>
+                        </li>
+                </ol>
+                <p><i>..."[sic].</i></p>
+                <br>
+                <p>Sin más por el momento reciba un cordial saludo.</p>
+                <section id="blanco">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </section>
+                <div align="center">
+                    <table>
+                        <tr>
+                            <td>________________________________________________</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p align="center"><b>C. <span id="nombre-2"></span></b></p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            
+        </div>
+    </body>
+</html>
