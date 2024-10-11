@@ -1,4 +1,17 @@
 function iniciarPrograma() {
+    window.addEventListener("beforeunload", function (e) {
+        // Mensaje de advertencia
+        var mensaje = "¿Estás seguro de que quieres salir de esta página?";
+        
+        // Algunos navegadores ignoran el mensaje personalizado, pero el evento evitará el cierre
+        e.preventDefault();
+        
+        // Definir el mensaje en la propiedad returnValue del evento (requerido por algunos navegadores)
+        e.returnValue = mensaje;
+    
+        // Devolver el mensaje (obsoleto en algunos navegadores)
+        return mensaje;
+    });
     let inputFisica = document.getElementById('fisica');
     let inputMoral = document.getElementById('moral');
     inputFisica.addEventListener('click', escucharFisica);
@@ -378,8 +391,6 @@ function terminarConvenio(){
         sectionPredetMoral.style.display = 'block'
     }
     if(inputFisica.checked){
-        let cambioFisica = document.getElementById('cambio-fisica')
-        cambioFisica.innerHTML = 'me dirijo a usted para solicitar'
 
         let sectionPredetMoral = document.getElementById("predet-fisica")
         sectionPredetMoral.style.display = 'block'
