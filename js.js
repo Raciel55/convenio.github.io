@@ -219,6 +219,7 @@ function seleccionarEmpresa(){
     let inputMario = document.getElementById('mario')
     let inputSantos = document.getElementById('santos')
     let inputLety = document.getElementById('lety')
+    let inputQuiroz36 = document.getElementById('quiroz-36')    
     //Buscar aquellos datos a modificar en cada caso
     let inputNombre = document.getElementById('nombre')
     let inputNombre2 = document.getElementById('nombre-2')
@@ -231,6 +232,9 @@ function seleccionarEmpresa(){
     if(inputSergio.checked){
        array[0] = "LUIS SERGIO BALCAZAR GARCIA"; array[1] = array[0]; array[2] = 'AUTOTRANSPORTES ESTRELLA DEL VALLE DE MEXICO, S.A. DE C.V.';array[3] = 'BLGRLS67100709H200'; array[4] = '20,876'; array[5] = '24 DE AGOSTO DEL 2022'
     }
+    if(inputQuiroz36.checked){
+        array[0] = "ROBERTO QUIROZ DIAZ"; array[1] = array[0]; array[2] = 'TRANSPORTES CHALCO 36, S.A. DE C.V.';array[3] = 'ORDZP855061815H600'; array[4] = '5,791'; array[5] = '13 DE AGOSTO DE 2020'
+     }
     if(inputIzcalli.checked){
         array[0] = "JULIO CESAR MOYA LUNA"; array[1] = array[0]; array[2] = 'SITIO DE TAXIS Y RADIO TAXIS DE IZCALLI DEL RIO, S.A. DE C.V.'; array[3] = 'MYLNJL71041213H100'; array[4] = '23,683'; array[5] = '01 DE MARZO DEL 2024'                
     }
