@@ -59,7 +59,7 @@ body{
     opacity: 50%;
     background-color: #2e3839;
     color: white;
-    height: 50px;
+    height: 60px;
     line-height: 50px;
     border-radius: 10px;
 }
@@ -89,9 +89,22 @@ background: linear-gradient(90deg, rgba(69,244,252,1) 0%, rgba(78,69,252,1) 25%,
     line-height: 50px;
     border-radius: 10px;
     border-color: black;
-    padding-left: 100px;
     padding-top: 30px;
+    padding-left: 10px;
+    text-align: justify;
 }
+input[type="radio"].radio-button{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    vertical-align: middle; /* Alinea verticalmente con el texto */
+    margin-top: -6px; /* Ajusta la posición desde arriba */
+}
+
+input[type="radio"].radio-button:checked{
+    accent-color: BLACK;
+}
+
 
 .contenedor-3{
     background-color: #BBE2EC;
@@ -136,6 +149,8 @@ background: linear-gradient(90deg, rgba(69,244,252,1) 0%, rgba(78,69,252,1) 25%,
     background-color: white;
     border-radius: 20px;
     cursor: pointer;
+    height: 42px;
+    width: 135px;
 }
 
 .texto{
