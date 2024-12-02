@@ -229,10 +229,15 @@ function seleccionarEmpresa(){
     let inputPoder = document.getElementById('poder')
     let inputFechaPoder = document.getElementById('fecha-poder')
     let inputVm = document.getElementById('vm')
+    let inputSaul = document.getElementById('saul')
+
     var array = [];
     if(inputSergio.checked){
        array[0] = "LUIS SERGIO BALCAZAR GARCIA"; array[1] = array[0]; array[2] = 'AUTOTRANSPORTES ESTRELLA DEL VALLE DE MEXICO, S.A. DE C.V.';array[3] = 'BLGRLS67100709H200'; array[4] = '20,876'; array[5] = '24 DE AGOSTO DEL 2022'
     }
+    if(inputSaul.checked){
+        array[0] = "SAUL IGNACIO OSORIO DELGADO"; array[1] = array[0]; array[2] = 'TRANSPORTES MEXICO GUADALUPE VICTORIA SAN PABLO Y ANEXAS, S.A. DE C.V.';array[3] = 'OSDLSL87042209H100'; array[4] = '30,938'; array[5] = '03 DE MAYO DE 2023'
+     }
     if(inputSemesa.checked){
         array[0] = "WENDY GOMEZ GONZALEZ"; array[1] = array[0]; array[2] = 'SERVICIOS METROPOLITANOS DE EXCELENCIA, S.A. DE C.V.';array[3] = 'GMGNWN84101209M700'; array[4] = '362'; array[5] = '17 DE JULIO DEL 2019'
      }
