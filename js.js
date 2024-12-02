@@ -230,6 +230,8 @@ function seleccionarEmpresa(){
     let inputFechaPoder = document.getElementById('fecha-poder')
     let inputVm = document.getElementById('vm')
     let inputSaul = document.getElementById('saul')
+    let inputRuta58 = document.getElementById('ruta-58')
+
 
     var array = [];
     if(inputSergio.checked){
@@ -237,6 +239,9 @@ function seleccionarEmpresa(){
     }
     if(inputSaul.checked){
         array[0] = "SAUL IGNACIO OSORIO DELGADO"; array[1] = array[0]; array[2] = 'TRANSPORTES MEXICO GUADALUPE VICTORIA SAN PABLO Y ANEXAS, S.A. DE C.V.';array[3] = 'OSDLSL87042209H100'; array[4] = '30,938'; array[5] = '03 DE MAYO DE 2023'
+     }
+     if(inputRuta58.checked){
+        array[0] = "EDGAR JOSE LUIS GARCIA CEDILLO"; array[1] = array[0]; array[2] = 'AUTOTRANSPORTES EL CAPULIN RUTA 58, S.A. DE C.V.';array[3] = 'GRCDED71070909H000'; array[4] = '29,846'; array[5] = '14 DE MAYO DEL 2019'
      }
     if(inputSemesa.checked){
         array[0] = "WENDY GOMEZ GONZALEZ"; array[1] = array[0]; array[2] = 'SERVICIOS METROPOLITANOS DE EXCELENCIA, S.A. DE C.V.';array[3] = 'GMGNWN84101209M700'; array[4] = '362'; array[5] = '17 DE JULIO DEL 2019'
